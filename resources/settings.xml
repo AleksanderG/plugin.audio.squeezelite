@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32000">
+        <setting id="exec" label="32001" type="file" source="auto" default="/usr/bin/squeezelite"/>
+        <setting id="name" label="32002" type="text" default=""/>
+        <setting id="id" label="32003" type="text" default=""/>
+	<setting id="args" label="32004" type="text" default="-C 0"/>
+    </category>
+    <category label="32100">
+        <setting id="host" label="32101" type="text"/>
+	<setting id="port" label="32102" type="number" default="9000"/>
+    </category>
+</settings>
